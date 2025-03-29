@@ -21,16 +21,23 @@ A simple real-time chat application built with React, Socket.IO, and Express.
 
 ### Backend Setup
 
-1. Install the necessary backend dependencies:
+1. Navigate to the project directory:
+
+```sh
+cd chat-backend
+```
+
+2. Install the necessary backend dependencies:
 
 ```sh
 npm install express socket.io cors
+npm install --save-dev nodemon
 ```
 
-2. Start the backend server:
+3. Start the backend server:
 
 ```sh
-node server.js
+npm run dev
 ```
 
 ### Frontend Setup
@@ -38,7 +45,7 @@ node server.js
 1. Navigate to the project directory:
 
 ```sh
-cd espresso-chat
+cd hat-frontend
 ```
 
 2. Install the dependencies:
