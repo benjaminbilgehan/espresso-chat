@@ -45,7 +45,7 @@ npm run dev
 1. Navigate to the project directory:
 
 ```sh
-cd hat-frontend
+cd chat-frontend
 ```
 
 2. Install the dependencies:
